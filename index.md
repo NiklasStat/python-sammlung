@@ -1,5 +1,5 @@
 # Python Code Sammlung
-Generiert am: 2026-03-25 16:23:54.642836
+Generiert am: 2026-03-25 16:58:50.221063
 
 ## NEU60.py
 
@@ -225,11 +225,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU60.py", line 2, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU60.py']' timed out after 10 seconds
 ```
 
 ## NEU_1.py
@@ -328,16 +324,10 @@ _____
 229
 Es gibt insgesamt 50 Primzahlen, und die 50. lautet 229.
 autobahnbrücke
-{'ü', 'n', 'h', 'u', 'o', 't', 'a', 'e', 'c', 'b', 'r', 'k'}
+{'t', 'k', 'r', 'h', 'e', 'c', 'b', 'u', 'a', 'ü', 'o', 'n'}
 {'a': 2, 'u': 1, 't': 1, 'o': 1, 'b': 2, 'h': 1, 'n': 1, 'r': 1, 'ü': 1, 'c': 1, 'k': 1, 'e': 1}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-{'v': 6, 'q': 2, 'n': 20, 'y': 4, 'p': 10, 'j': 2, 'a': 46, 'c': 12, 'l': 22, 'k': 4, 'm': 32, 'u': 30, 'r': 32, 'i': 30, 'd': 26, 'g': 8, 'e': 56, 's': 38, 'o': 42, 't': 50, 'b': 6}
-
-[Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_1.py", line 59, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
+{'s': 38, 'd': 26, 'm': 32, 'j': 2, 'g': 8, 'l': 22, 't': 50, 'k': 4, 'r': 32, 'y': 4, 'q': 2, 'a': 46, 'o': 42, 'i': 30, 'e': 56, 'b': 6, 'v': 6, 'c': 12, 'p': 10, 'u': 30, 'n': 20}
 
 ```
 
@@ -381,11 +371,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_10.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_10.py']' timed out after 10 seconds
 ```
 
 ## NEU_101.py
@@ -429,9 +415,9 @@ print(df_imputed)
 
 [Fehler]
 Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_101.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
+  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_101.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
 
 ```
 
@@ -552,11 +538,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_103.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_103.py']' timed out after 10 seconds
 ```
 
 ## NEU_104.py
@@ -757,9 +739,9 @@ Kreuzentropie = 0.6655438435965481
 
 [Fehler]
 Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_104.py", line 50, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
+  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_104.py", line 51, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'
 
 ```
 
@@ -992,9 +974,9 @@ visualize_layer(net, layer_index=1, num_neurons=8, title_prefix="Layer 2")
 
 [Fehler]
 Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_105.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
+  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_105.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
 
 ```
 
@@ -1309,7 +1291,7 @@ FILE
 140
 140
 ---------
-7
+3
 
 [Fehler]
 Traceback (most recent call last):
@@ -1359,11 +1341,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_14.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_14.py']' timed out after 10 seconds
 ```
 
 ## NEU_15.py
@@ -1412,11 +1390,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_15.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_15.py']' timed out after 10 seconds
 ```
 
 ## NEU_16.py
@@ -1444,11 +1418,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_16.py", line 1, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_16.py']' timed out after 10 seconds
 ```
 
 ## NEU_17.py
@@ -1489,11 +1459,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_17.py", line 1, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_17.py']' timed out after 10 seconds
 ```
 
 ## NEU_18.py
@@ -1533,11 +1499,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_18.py", line 1, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_18.py']' timed out after 10 seconds
 ```
 
 ## NEU_19.py
@@ -1583,11 +1545,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_19.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_19.py']' timed out after 10 seconds
 ```
 
 ## NEU_2.py
@@ -1661,11 +1619,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_21.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_21.py']' timed out after 10 seconds
 ```
 
 ## NEU_22.py
@@ -1713,11 +1667,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_22.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_22.py']' timed out after 10 seconds
 ```
 
 ## NEU_23.py
@@ -1901,7 +1851,11 @@ root.mainloop()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_24.py']' timed out after 10 seconds
+```
 
 ## NEU_25.py
 
@@ -2159,7 +2113,11 @@ root.mainloop()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_28_tkinter.py']' timed out after 10 seconds
+```
 
 ## NEU_29_tkinter2.py
 
@@ -2572,11 +2530,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_30.py", line 2, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_30.py']' timed out after 10 seconds
 ```
 
 ## NEU_31.py
@@ -2608,7 +2562,11 @@ root.mainloop()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_31.py']' timed out after 10 seconds
+```
 
 ## NEU_32.py
 
@@ -2636,7 +2594,11 @@ root.mainloop()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_32.py']' timed out after 10 seconds
+```
 
 ## NEU_33.py
 
@@ -2751,7 +2713,11 @@ root.mainloop()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_33.py']' timed out after 10 seconds
+```
 
 ## NEU_34.py
 
@@ -2799,7 +2765,11 @@ root.mainloop()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_34.py']' timed out after 10 seconds
+```
 
 ## NEU_35.py
 
@@ -2863,11 +2833,7 @@ plot_nv()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_35.py", line 1, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_35.py']' timed out after 10 seconds
 ```
 
 ## NEU_36.py
@@ -2954,11 +2920,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_36.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_36.py']' timed out after 10 seconds
 ```
 
 ## NEU_37.py
@@ -3034,12 +2996,9 @@ root.mainloop()
 
 ### Ausgabe
 ```
-15
-[20, 30, 40, 50, 60]
-----
-{'my_img1': 21, 'my_img2': 31, 'my_img3': 41, 'my_img4': 51, 'my_img5': 61}
-31
 
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_37.py']' timed out after 10 seconds
 ```
 
 ## NEU_38.py
@@ -3084,7 +3043,11 @@ root.mainloop()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_38.py']' timed out after 10 seconds
+```
 
 ## NEU_39.py
 
@@ -3177,11 +3140,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_39.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_39.py']' timed out after 10 seconds
 ```
 
 ## NEU_4.py
@@ -3364,11 +3323,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_40.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_40.py']' timed out after 10 seconds
 ```
 
 ## NEU_41.py
@@ -3432,7 +3387,11 @@ root.mainloop()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_41.py']' timed out after 10 seconds
+```
 
 ## NEU_42.py
 
@@ -3501,11 +3460,7 @@ print("Auswahl-Liste:", Liste_pizza)
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_42.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_42.py']' timed out after 10 seconds
 ```
 
 ## NEU_43.py
@@ -3548,11 +3503,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_43.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_43.py']' timed out after 10 seconds
 ```
 
 ## NEU_44.py
@@ -3590,11 +3541,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_44.py", line 4, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_44.py']' timed out after 10 seconds
 ```
 
 ## NEU_45.py
@@ -3650,11 +3597,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_45.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_45.py']' timed out after 10 seconds
 ```
 
 ## NEU_46.py
@@ -3692,11 +3635,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_46.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_46.py']' timed out after 10 seconds
 ```
 
 ## NEU_47.py
@@ -3754,7 +3693,11 @@ root.mainloop()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_47.py']' timed out after 10 seconds
+```
 
 ## NEU_48.py
 
@@ -3853,8 +3796,9 @@ create_board()
 
 ### Ausgabe
 ```
-[3, 2, 4, 6]
 
+[Fehler]
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_48.py']' timed out after 10 seconds
 ```
 
 ## NEU_49.py
@@ -4116,9 +4060,9 @@ root.mainloop()
 
 [Fehler]
 Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_49.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
+  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_49.py", line 5, in <module>
+    from docutils.nodes import address
+ModuleNotFoundError: No module named 'docutils'
 
 ```
 
@@ -4301,11 +4245,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_50.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_50.py']' timed out after 10 seconds
 ```
 
 ## NEU_51.py
@@ -4338,11 +4278,7 @@ root.mainloop()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_51.py", line 2, in <module>
-    from PIL import ImageTk, Image
-ModuleNotFoundError: No module named 'PIL'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_51.py']' timed out after 10 seconds
 ```
 
 ## NEU_52.py
@@ -4967,12 +4903,7 @@ ___
 [4, 5, 6, 7, -3, -3, -3]
 444
 4
-
-[Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_53.py", line 184, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
+[ 4  5  6  7 -3 -3 -3]
 
 ```
 
@@ -5385,12 +5316,35 @@ print(letters, numbers)
 
 ### Ausgabe
 ```
-
-[Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_55.py", line 3, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
+140
+56.8
+76.9
+[73 67 43]
+56.8
+56.8
+-------------
+833332333333500000
+Dauer: 0.6063375473022461 Sekunden
+33333344444444555555555
+Laufzeit: 0.60634 Sekunden
+833332333333500000
+Laufzeit: 0.00387 Sekunden
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+dict_keys(['Name', 'Alter', 'Groeße']) dict_values(['Nik', 40, 180])
+Nik
+[0, 0, 0, 0] [0, 0, 0, 0]
+[(2, 11), (2, 12), (3, 11), (3, 12)]
+{2: True, 4: True, 6: True, 8: True}
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+True
+False
+Set: dict_keys([1, 2, 4])
+Set: dict_keys([1, 2, 4])
+[24, 40]
+30
+48
+[6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96]
+('a', 'b', 'c') (1, 2, 3)
 
 ```
 
@@ -5638,11 +5592,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_57.py", line 2, in <module>
-    from matplotlib import pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_57.py']' timed out after 10 seconds
 ```
 
 ## NEU_58.py
@@ -5955,9 +5905,9 @@ ______+++______
 
 [Fehler]
 Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_59.py", line 155, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
+  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_59.py", line 156, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
 
 ```
 
@@ -6134,11 +6084,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_61.py", line 1, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_61.py']' timed out after 10 seconds
 ```
 
 ## NEU_62.py
@@ -6276,11 +6222,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_62.py", line 2, in <module>
-    import matplotlib.pyplot as plt
-ModuleNotFoundError: No module named 'matplotlib'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_62.py']' timed out after 10 seconds
 ```
 
 ## NEU_63.py
@@ -6338,11 +6280,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_63.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_63.py']' timed out after 10 seconds
 ```
 
 ## NEU_64.py
@@ -6680,11 +6618,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_7.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_7.py']' timed out after 10 seconds
 ```
 
 ## NEU_70.py
@@ -8081,11 +8015,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_8.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_8.py']' timed out after 10 seconds
 ```
 
 ## NEU_9.py
@@ -8123,11 +8053,7 @@ plt.show()
 ```
 
 [Fehler]
-Traceback (most recent call last):
-  File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_9.py", line 1, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-
+Fehler beim Ausführen: Command '['python', 'C:\\Users\\nikla\\PycharmProjects\\pythonProject\\NEU_9.py']' timed out after 10 seconds
 ```
 
 ## Test_1.py
