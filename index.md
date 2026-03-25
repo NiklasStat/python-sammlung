@@ -1,5 +1,5 @@
 # Python Code Sammlung
-Generiert am: 2026-03-25 18:13:54.516714
+Generiert am: 2026-03-25 20:41:08.387396
 
 ## NEU60.py
 
@@ -239,11 +239,11 @@ ____________
 ________
 0.2533435821533203
 _________--------
-0.4258162492736385
-0.9153192891148041
-0.13086747147290578
+0.890332155496805
+0.11578191198449861
+0.04795275594335069
 NNNNNNNNNNNNNNNNNNNN
-0
+1
 0
 0.1
 0.30000000000000004
@@ -348,10 +348,10 @@ _____
 229
 Es gibt insgesamt 50 Primzahlen, und die 50. lautet 229.
 autobahnbrücke
-{'h', 'u', 'e', 'c', 't', 'o', 'a', 'r', 'b', 'ü', 'n', 'k'}
+{'k', 'a', 'ü', 'b', 'h', 'c', 'o', 'e', 't', 'r', 'n', 'u'}
 {'a': 2, 'u': 1, 't': 1, 'o': 1, 'b': 2, 'h': 1, 'n': 1, 'r': 1, 'ü': 1, 'c': 1, 'k': 1, 'e': 1}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-{'o': 42, 'q': 2, 'e': 56, 'p': 10, 'j': 2, 'y': 4, 'l': 22, 'u': 30, 't': 50, 'a': 46, 'd': 26, 'v': 6, 'r': 32, 'b': 6, 's': 38, 'n': 20, 'i': 30, 'c': 12, 'm': 32, 'g': 8, 'k': 4}
+{'d': 26, 'b': 6, 'e': 56, 'm': 32, 'u': 30, 'c': 12, 'y': 4, 'q': 2, 'r': 32, 'a': 46, 'i': 30, 'l': 22, 'o': 42, 'p': 10, 'j': 2, 't': 50, 'g': 8, 'v': 6, 'k': 4, 's': 38, 'n': 20}
 
 ```
 
@@ -994,31 +994,31 @@ visualize_layer(net, layer_index=1, num_neurons=8, title_prefix="Layer 2")
 ### Ausgabe
 ```
          x1        x2  y
-0 -4.002541  2.545714  0
-1  2.088678  1.293609  0
-2  2.286257  5.098311  1
-3  0.198191  5.145215  1
-4 -1.497017  0.172440  0
-Epoch 0, Loss = 0.7482
-Epoch 200, Loss = 0.5696
-Epoch 400, Loss = 0.3692
-Epoch 600, Loss = 0.1673
-Epoch 800, Loss = 0.1022
-Epoch 1000, Loss = 0.0760
-Epoch 1200, Loss = 0.0621
-Epoch 1400, Loss = 0.0534
-Epoch 1600, Loss = 0.0472
-Epoch 1800, Loss = 0.0426
+0 -3.094166  1.737748  0
+1 -1.500972  8.202048  0
+2 -4.765768  2.226821  0
+3 -0.693222  0.598575  0
+4 -2.990707  3.492044  0
+Epoch 0, Loss = 0.6817
+Epoch 200, Loss = 0.5055
+Epoch 400, Loss = 0.2863
+Epoch 600, Loss = 0.1509
+Epoch 800, Loss = 0.0951
+Epoch 1000, Loss = 0.0706
+Epoch 1200, Loss = 0.0563
+Epoch 1400, Loss = 0.0468
+Epoch 1600, Loss = 0.0400
+Epoch 1800, Loss = 0.0350
 Wahrscheinlichkeiten:
-(-5.0, 0.0) -> 0.0009
+(-5.0, 0.0) -> 0.0003
 (-3.9, 1.1) -> 0.0001
-(-2.8, 2.2) -> 0.0003
-(-1.7, 3.3) -> 0.9998
-(-0.6, 4.4) -> 0.9999
-(0.6, 5.6) -> 0.9996
-(1.7, 6.7) -> 0.9909
-(2.8, 7.8) -> 0.1547
-(3.9, 8.9) -> 0.0005
+(-2.8, 2.2) -> 0.0002
+(-1.7, 3.3) -> 0.9997
+(-0.6, 4.4) -> 0.9998
+(0.6, 5.6) -> 0.9997
+(1.7, 6.7) -> 0.9958
+(2.8, 7.8) -> 0.0461
+(3.9, 8.9) -> 0.0001
 (5.0, 10.0) -> 0.0001
 
 ```
@@ -1335,7 +1335,7 @@ FILE
 140
 140
 ---------
-6
+5
                           Größe  Gewicht
 0                Varianz   62.5    107.5
 1                 Median  170.0     70.0
