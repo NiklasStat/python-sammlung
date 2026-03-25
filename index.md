@@ -1,5 +1,5 @@
-# Python Code Sammlung
-Generiert am: 2026-03-25 20:41:08.387396
+# Python Sammlung
+Generiert am: Wed Mar 25 21:37:57 2026
 
 ## NEU60.py
 
@@ -239,11 +239,11 @@ ____________
 ________
 0.2533435821533203
 _________--------
-0.890332155496805
-0.11578191198449861
-0.04795275594335069
+0.9362414154592239
+0.3054894053043752
+0.8000876554852885
 NNNNNNNNNNNNNNNNNNNN
-1
+5
 0
 0.1
 0.30000000000000004
@@ -348,10 +348,10 @@ _____
 229
 Es gibt insgesamt 50 Primzahlen, und die 50. lautet 229.
 autobahnbrücke
-{'k', 'a', 'ü', 'b', 'h', 'c', 'o', 'e', 't', 'r', 'n', 'u'}
+{'c', 'r', 'u', 'o', 't', 'b', 'h', 'k', 'n', 'e', 'a', 'ü'}
 {'a': 2, 'u': 1, 't': 1, 'o': 1, 'b': 2, 'h': 1, 'n': 1, 'r': 1, 'ü': 1, 'c': 1, 'k': 1, 'e': 1}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-{'d': 26, 'b': 6, 'e': 56, 'm': 32, 'u': 30, 'c': 12, 'y': 4, 'q': 2, 'r': 32, 'a': 46, 'i': 30, 'l': 22, 'o': 42, 'p': 10, 'j': 2, 't': 50, 'g': 8, 'v': 6, 'k': 4, 's': 38, 'n': 20}
+{'b': 6, 'n': 20, 'a': 46, 'm': 32, 'q': 2, 'r': 32, 'o': 42, 'k': 4, 'd': 26, 'y': 4, 'l': 22, 'p': 10, 'g': 8, 's': 38, 'i': 30, 'j': 2, 'u': 30, 't': 50, 'v': 6, 'e': 56, 'c': 12}
 
 ```
 
@@ -393,8 +393,6 @@ plt.show()
 
 ### Ausgabe
 ```
-
-[Fehler]
 C:\Users\nikla\PycharmProjects\pythonProject\NEU_10.py:6: RuntimeWarning: divide by zero encountered in divide
   return -1 / np.cbrt(x) * np.log(1 / (x + 1))
 
@@ -438,8 +436,6 @@ print(df_imputed)
 
 ### Ausgabe
 ```
-
-[Fehler]
 Traceback (most recent call last):
   File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_101.py", line 3, in <module>
     from sklearn.experimental import enable_iterative_imputer
@@ -499,8 +495,6 @@ print("Predicted outcome:", classes[np.argmax(prediction)])
 
 ### Ausgabe
 ```
-
-[Fehler]
 Traceback (most recent call last):
   File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_102.py", line 1, in <module>
     import tensorflow as tf
@@ -564,7 +558,9 @@ plt.show()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+```
 
 ## NEU_104.py
 
@@ -994,31 +990,31 @@ visualize_layer(net, layer_index=1, num_neurons=8, title_prefix="Layer 2")
 ### Ausgabe
 ```
          x1        x2  y
-0 -3.094166  1.737748  0
-1 -1.500972  8.202048  0
-2 -4.765768  2.226821  0
-3 -0.693222  0.598575  0
-4 -2.990707  3.492044  0
-Epoch 0, Loss = 0.6817
-Epoch 200, Loss = 0.5055
-Epoch 400, Loss = 0.2863
-Epoch 600, Loss = 0.1509
-Epoch 800, Loss = 0.0951
-Epoch 1000, Loss = 0.0706
-Epoch 1200, Loss = 0.0563
-Epoch 1400, Loss = 0.0468
-Epoch 1600, Loss = 0.0400
-Epoch 1800, Loss = 0.0350
+0 -4.165641  9.858996  0
+1 -1.568189  9.252059  0
+2 -4.713548  9.746372  0
+3  1.353647  4.999815  1
+4 -2.932935  0.892585  0
+Epoch 0, Loss = 0.6979
+Epoch 200, Loss = 0.5047
+Epoch 400, Loss = 0.2461
+Epoch 600, Loss = 0.1329
+Epoch 800, Loss = 0.0894
+Epoch 1000, Loss = 0.0689
+Epoch 1200, Loss = 0.0571
+Epoch 1400, Loss = 0.0495
+Epoch 1600, Loss = 0.0441
+Epoch 1800, Loss = 0.0402
 Wahrscheinlichkeiten:
-(-5.0, 0.0) -> 0.0003
+(-5.0, 0.0) -> 0.0001
 (-3.9, 1.1) -> 0.0001
-(-2.8, 2.2) -> 0.0002
-(-1.7, 3.3) -> 0.9997
-(-0.6, 4.4) -> 0.9998
-(0.6, 5.6) -> 0.9997
-(1.7, 6.7) -> 0.9958
-(2.8, 7.8) -> 0.0461
-(3.9, 8.9) -> 0.0001
+(-2.8, 2.2) -> 0.0006
+(-1.7, 3.3) -> 0.9996
+(-0.6, 4.4) -> 0.9997
+(0.6, 5.6) -> 0.9996
+(1.7, 6.7) -> 0.9951
+(2.8, 7.8) -> 0.0520
+(3.9, 8.9) -> 0.0002
 (5.0, 10.0) -> 0.0001
 
 ```
@@ -1085,8 +1081,6 @@ visualize_layer(net, layer_index=1, num_neurons=8, title_prefix="Layer 2")
 
 ### Ausgabe
 ```
-
-[Fehler]
 Traceback (most recent call last):
   File "C:\Users\nikla\PycharmProjects\pythonProject\NEU_106.py", line 51, in <module>
     visualize_layer(net, layer_index=0, num_neurons=16, title_prefix="Layer 1")
@@ -1335,7 +1329,7 @@ FILE
 140
 140
 ---------
-5
+4
                           Größe  Gewicht
 0                Varianz   62.5    107.5
 1                 Median  170.0     70.0
@@ -1390,7 +1384,9 @@ plt.show()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+```
 
 ## NEU_15.py
 
@@ -1435,7 +1431,9 @@ plt.show()
 ```
 
 ### Ausgabe
-_Keine Ausgabe_
+```
+
+```
 
 ## NEU_16.py
 
@@ -1460,8 +1458,6 @@ plt.show()
 
 ### Ausgabe
 ```
-
-[Fehler]
 C:\Users\nikla\PycharmProjects\pythonProject\NEU_16.py:5: RuntimeWarning: invalid value encountered in log
   y = (1/np.tan(x))**(1/np.log(x))
 
